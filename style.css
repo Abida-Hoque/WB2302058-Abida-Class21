@@ -1,0 +1,115 @@
+#inline{
+    background-color: red;
+    display: inline;
+    padding: 15px;
+    height: 150px;
+}
+#inline-block{
+    background-color: green;
+    display: inline-block;
+    padding: 15px;
+    height: 150px;
+}
+
+.align{
+    width: 50%;
+    height: 150px;
+    border: 3px solid green;
+    margin: auto;
+}
+
+img{
+    height: 250px;
+    width: 250px;
+    display: block;
+    margin: auto;
+}
+
+.Align{
+    width: 50%;
+    height: 150px;
+    position: relative;
+    border: 3px solid red;
+}
+.sub-div1{
+    height: 100px;
+    widows: 50px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.div1 p{
+    color: brown;
+}
+.div1>p{
+    color: blue;
+}
+.div1+p{
+    background-color: red;
+    color: white;
+}
+/*.div1~p{
+    color: coral;
+}*/
+.div2 p{
+    color: green;
+}
+
+
+a{
+    margin-top: 20px;
+    display: inline-block;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: green;
+    padding: 20px;
+}
+a:link{
+    color: blue;
+    opacity: 0.3;
+}
+a:visited{
+    background-color: red;
+}
+a:hover{
+    opacity: 1;
+}
+a:active{
+    background-color: #000;
+}
+
+.text{
+    height: 200px;
+    width: 200px;
+    border: 2px solid green;
+}
+div.text p:hover{
+    border: 2px dotted red;
+}
+
+.text1{
+    height: 300px;
+    width: 400px;
+    border: 2px solid green;
+}
+div.text1 p:first-child{
+    color:deepskyblue;
+}
+
+q:lang(no){
+    color: red;
+    quotes: "@" "$";
+}
+
+
+
+
+
+
+
+
